@@ -11,6 +11,7 @@ apt-add-repository ppa:ansible/ansible -y
 apt-get update
 apt-get install ansible -y
 apt-get install unzip -y
+apt install python3-pip
 
 cd /home/
 
