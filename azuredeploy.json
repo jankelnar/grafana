@@ -50,7 +50,7 @@
     }
   },
   "variables": {
-    "resourcePrefix": "tig",
+    "resourcePrefix": "epc",
     "storageAccountName": "[concat(variables('resourcePrefix'), uniquestring(resourceGroup().id))]",
     "nicName": "[concat(variables('resourcePrefix'), 'VMNic')]",
     "subnetName": "[concat(variables('resourcePrefix'), 'Subnet')]",

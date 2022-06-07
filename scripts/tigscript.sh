@@ -12,6 +12,7 @@ apt-get update
 apt-get install ansible -y
 apt-get install unzip -y
 apt install python3-pip
+apt install influxdb-client
 
 cd /home/
 
